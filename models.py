@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-
+# test ####################################
 class Category(MPTTModel):
     id = models.AutoField(primary_key=True)
     parent = TreeForeignKey('self',blank=True, null=True, related_name='children',on_delete= models.CASCADE)
