@@ -1,6 +1,5 @@
 from pygame import *
 '''Required classes'''
-anais
 #parent class for sprites
 class GameSprite(sprite.Sprite):
    def __init__(self, player_image, player_x, player_y, player_speed, wight, height):
